@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Intern</string>
+    <string name="author">ADITYA BHARDWAJ</string>
+    <string name="home">Home</string>
+    <string name="community">Community</string>
+    <string name="saved">Save</string>
+    <string name="profile">Profile</string>
+
+    <!-- Ad's -->
+    <string name="ad">Ad</string>
+    <string name="app_id">ca-app-pub-3940256099942544~3347511713</string>
+
+</resources>
