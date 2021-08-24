@@ -17,7 +17,9 @@ class SplashFragment : Fragment() {
     ): View? {
         Handler(Looper.myLooper()!!).postDelayed({
             findNavController().navigate(R.id.action_splashFragment_to_welcomeFragment)
-        }, 3000)
+        }, 100)
         return inflater.inflate(R.layout.fragment_splash, container, false)
     }
+
+    //TODO: Aditya - Change delay back to 3000ms.
 }

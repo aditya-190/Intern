@@ -5,5 +5,5 @@
     <stroke
         android:width="4dp"
         android:color="@android:color/transparent" />
-    <solid android:color="@color/navigationSelected" />
+    <solid android:color="@color/logoColor" />
 </shape>

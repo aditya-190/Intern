@@ -12,4 +12,5 @@
     <color name="colorBlack">#000000</color>
     <color name="navigationSelected">#ff0266</color>
     <color name="colorAdsBackground">#e5e5e5</color>
+    <color name="logoColor">#4285F4</color>
 </resources>
