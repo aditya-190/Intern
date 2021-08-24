@@ -5,7 +5,7 @@
     android:id="@+id/clRootMain"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".views.activities.MainActivity">
+    tools:context=".views.MainActivity">
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentMain"

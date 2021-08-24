@@ -10,5 +10,6 @@
     <color name="colorText">#f2f2f2</color>
     <color name="colorWhite">#ffffff</color>
     <color name="colorBlack">#000000</color>
+    <color name="navigationSelected">#ff0266</color>
     <color name="colorAdsBackground">#e5e5e5</color>
 </resources>

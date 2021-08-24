@@ -1,4 +1,4 @@
-package com.bhardwaj.intern.views.activities
+package com.bhardwaj.intern.views
 
 import android.os.Bundle
 import android.view.View
