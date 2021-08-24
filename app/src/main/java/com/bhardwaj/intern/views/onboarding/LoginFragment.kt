@@ -1,4 +1,4 @@
-package com.bhardwaj.intern.views.fragments
+package com.bhardwaj.intern.views.onboarding
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

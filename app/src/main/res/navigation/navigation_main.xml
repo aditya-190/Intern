@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation_main"
-    app:startDestination="@id/homeFragment">
+    app:startDestination="@id/splashFragment">
 
     <fragment
         android:id="@+id/homeFragment"
@@ -17,7 +17,7 @@
         tools:layout="@layout/fragment_community" />
     <fragment
         android:id="@+id/profileFragment"
-        android:name="com.bhardwaj.intern.views.fragments.ProfileFragment"
+        android:name="com.bhardwaj.intern.views.onboarding.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
     <fragment
@@ -25,4 +25,17 @@
         android:name="com.bhardwaj.intern.views.fragments.SavedFragment"
         android:label="fragment_saved"
         tools:layout="@layout/fragment_saved" />
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.bhardwaj.intern.views.onboarding.SplashFragment"
+        android:label="SplashFragment" >
+        <action
+            android:id="@+id/action_splashFragment_to_welcomeFragment"
+            app:destination="@id/welcomeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.bhardwaj.intern.views.onboarding.screens.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" />
 </navigation>

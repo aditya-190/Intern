@@ -4,6 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    tools:context=".views.fragments.CommunityFragment">
+    tools:context=".views.onboarding.LoginFragment">
 
 </androidx.constraintlayout.widget.ConstraintLayout>
