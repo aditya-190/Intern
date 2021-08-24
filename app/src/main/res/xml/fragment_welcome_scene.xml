@@ -4,94 +4,71 @@
 
     <ConstraintSet android:id="@+id/start">
         <Constraint
-            android:id="@+id/viewFirst"
-            android:layout_width="16dp"
-            android:layout_height="16dp"
-            android:layout_marginBottom="24dp"
-            motion:layout_constraintBottom_toBottomOf="parent"
-            motion:layout_constraintEnd_toStartOf="@+id/viewSecond"
-            motion:layout_constraintHorizontal_chainStyle="packed"
-            motion:layout_constraintStart_toStartOf="parent" />
+            android:id="@+id/viewActive"
+            android:layout_width="24dp"
+            android:layout_height="8dp"
+            motion:layout_constraintBottom_toBottomOf="@id/viewFirst"
+            motion:layout_constraintEnd_toEndOf="@id/viewFirst"
+            motion:layout_constraintStart_toStartOf="@id/viewFirst" />
     </ConstraintSet>
-
     <ConstraintSet android:id="@+id/middle">
         <Constraint
             android:id="@+id/viewActive"
-            android:layout_width="16dp"
-            android:layout_height="16dp"
-            android:layout_marginBottom="24dp"
-            motion:layout_constraintBottom_toBottomOf="parent"
+            android:layout_width="24dp"
+            android:layout_height="8dp"
+            motion:layout_constraintBottom_toBottomOf="@id/viewSecond"
             motion:layout_constraintEnd_toEndOf="@id/viewSecond"
             motion:layout_constraintStart_toStartOf="@id/viewSecond" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@+id/end">
         <Constraint
-            android:id="@+id/viewFirst"
-            android:layout_width="16dp"
-            android:layout_height="16dp"
-            android:layout_marginBottom="24dp"
-            motion:layout_constraintBottom_toBottomOf="parent"
-            motion:layout_constraintEnd_toStartOf="@+id/viewSecond"
-            motion:layout_constraintHorizontal_chainStyle="packed"
-            motion:layout_constraintStart_toStartOf="parent" />
+            android:id="@+id/viewActive"
+            android:layout_width="24dp"
+            android:layout_height="8dp"
+            motion:layout_constraintBottom_toBottomOf="@id/viewThird"
+            motion:layout_constraintEnd_toEndOf="@id/viewThird"
+            motion:layout_constraintStart_toStartOf="@id/viewThird" />
     </ConstraintSet>
     <Transition
         motion:constraintSetEnd="@+id/middle"
         motion:constraintSetStart="@+id/start">
-        <OnSwipe motion:dragDirection="dragLeft" />
+        <OnSwipe
+            motion:dragDirection="dragLeft"
+            motion:touchAnchorSide="left" />
         <KeyFrameSet>
             <KeyAttribute
-                android:scaleX="0.5"
-                android:scaleY="0.5"
-                motion:framePosition="50"
-                motion:motionTarget="@+id/viewFirst" />
-            <KeyAttribute
-                android:scaleX="1.5"
-                android:scaleY="0.5"
+                android:scaleX="1.2"
+                android:scaleY="0.9"
                 motion:framePosition="50"
                 motion:motionTarget="@+id/viewActive" />
             <KeyAttribute
-                android:scaleX="0.5"
-                android:scaleY="0.5"
+                android:scaleY="0.8"
+                motion:framePosition="50"
+                motion:motionTarget="@+id/viewFirst" />
+            <KeyAttribute
+                android:scaleY="0.8"
                 motion:framePosition="50"
                 motion:motionTarget="@+id/viewSecond" />
         </KeyFrameSet>
     </Transition>
-    <ConstraintSet android:id="@+id/end">
-        <Constraint
-            android:id="@+id/viewActive"
-            android:layout_width="16dp"
-            android:layout_height="16dp"
-            android:layout_marginBottom="24dp"
-            motion:layout_constraintBottom_toBottomOf="parent"
-            motion:layout_constraintEnd_toEndOf="@id/viewThird"
-            motion:layout_constraintStart_toStartOf="@id/viewThird" />
-        <Constraint
-            android:id="@+id/viewFirst"
-            android:layout_width="16dp"
-            android:layout_height="16dp"
-            android:layout_marginBottom="24dp"
-            motion:layout_constraintBottom_toBottomOf="parent"
-            motion:layout_constraintEnd_toStartOf="@+id/viewSecond"
-            motion:layout_constraintHorizontal_chainStyle="packed"
-            motion:layout_constraintStart_toStartOf="parent" />
-    </ConstraintSet>
     <Transition
         motion:constraintSetEnd="@+id/end"
         motion:constraintSetStart="@+id/middle">
-        <OnSwipe motion:dragDirection="dragLeft" />
+        <OnSwipe
+            motion:dragDirection="dragLeft"
+            motion:touchAnchorSide="left" />
         <KeyFrameSet>
             <KeyAttribute
-                android:scaleX="0.5"
-                android:scaleY="0.5"
-                motion:framePosition="50"
-                motion:motionTarget="@+id/viewSecond" />
-            <KeyAttribute
-                android:scaleX="1.5"
-                android:scaleY="0.5"
+                android:scaleX="1.2"
+                android:scaleY="0.9"
                 motion:framePosition="50"
                 motion:motionTarget="@+id/viewActive" />
             <KeyAttribute
-                android:scaleX="0.5"
-                android:scaleY="0.5"
+                android:scaleY="0.8"
+                motion:framePosition="50"
+                motion:motionTarget="@+id/viewSecond" />
+            <KeyAttribute
+                android:scaleY="0.8"
                 motion:framePosition="50"
                 motion:motionTarget="@+id/viewThird" />
         </KeyFrameSet>
