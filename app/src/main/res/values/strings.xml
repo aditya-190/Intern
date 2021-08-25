@@ -13,4 +13,12 @@
     <!-- Welcome Screens -->
     <string name="sign_in">Sign In</string>
     <string name="sign_up">Sign Up</string>
+
+    <string name="title_first">Title First</string>
+    <string name="title_second">Title Second</string>
+    <string name="title_third">Title Third</string>
+    <string name="sub_title_first">Sub Title First</string>
+    <string name="sub_title_second">Sub Title Second</string>
+    <string name="sub_title_third">Sub Title Third</string>
+
 </resources>
