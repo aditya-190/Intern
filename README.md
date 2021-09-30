@@ -33,3 +33,7 @@ What i expect to add in this android app.
     3. Change Language.
     4. App Version , FAQ, Support (Just Open e-Mail to send a mail to xxxx@gmail.com - will change later).
     5. Change Category for which the user wants to get notified.
+
+
+
+SOMETHING NEW
