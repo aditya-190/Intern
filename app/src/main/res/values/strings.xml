@@ -1,3 +1,127 @@
 <resources>
     <string name="app_name">Intern</string>
+
+    <!--    OnBoarding Screens      -->
+    <string name="sign_up">Sign Up</string>
+    <string name="login">LOGIN</string>
+
+    <string name="onBoarding_1_heading">Searching your dream Job/Internship?</string>
+    <string name="onBoarding_2_heading">We have covered for everyone</string>
+    <string name="onBoarding_3_heading">Apply to your preferred Alerts</string>
+    <string name="onBoarding_4_heading">Get Hired:)</string>
+
+    <string name="onBoarding_1_description">You’ve come to the right place. Swipe on ></string>
+    <string name="onBoarding_2_description">Engineering, Management, Content, Design, Teaching,\nFinance and many more!</string>
+    <string name="onBoarding_3_description">Complete your profile and get the most out of your\njob search</string>
+    <string name="onBoarding_4_description">Based on internships requirements and your profile,\napply and stand out to recruiters</string>
+
+    <!--    Login       -->
+    <string name="email">EMAIL</string>
+    <string name="sign_in">Sign In</string>
+    <string name="password">PASSWORD</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="do_not_have_an_account">DON’T HAVE AN ACCOUNT?</string>
+
+    <!--    Sign Up     -->
+    <string name="name">NAME</string>
+    <string name="version_number">Version 1.0.0</string>
+    <string name="create_your_account">Create your\naccount</string>
+    <string name="already_have_an_account">ALREADY HAVE AN ACCOUNT?</string>
+    <string name="agree_intern_terms">By continuing, you agree to Intern’s Terms of Service\nand Privacy Policy.</string>
+
+    <!--    Forgot Password     -->
+    <string name="reset_password">Reset Password</string>
+    <string name="reset_password_in_two_quick_steps">Reset Password in two quick steps</string>
+
+    <!--    OTP Verification    -->
+    <string name="submit">Submit</string>
+    <string name="six_digit_code">6 digit code</string>
+    <string name="we_sent_a_code_to_your_email">We sent a code to your email</string>
+    <string name="enter_the_verification_code">Enter the 6-digit verification code sent to</string>
+    <string name="check_spam_folder">If you don’t see the email in your inbox, check your\nspam folder.</string>
+
+    <!--    Create Password     -->
+    <string name="change_password">Change Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_new_password">Create new password</string>
+    <string name="new_password_different_from_previous">Your new password must be different\nfrom previous used passwords.</string>
+
+
+    <!--    Bottom Navigation    -->
+    <string name="home">Home</string>
+    <string name="exams">Exams</string>
+    <string name="discuss">Discuss</string>
+    <string name="account">Account</string>
+
+    <!--    Home    -->
+    <string name="search">Search</string>
+    <string name="new_jobs_internship">new jobs/Internships</string>
+    <string name="everything_in_a_list">Everything in a list - go nuts!</string>
+
+    <!--    Job Description    -->
+    <string name="save">Save</string>
+    <string name="more">More</string>
+    <string name="like">Like</string>
+    <string name="about">About</string>
+    <string name="share">Share</string>
+    <string name="apply_now">Apply Now</string>
+    <string name="descriptions">Descriptions</string>
+    <string name="requirements">Requirements:</string>
+    <string name="about_company">About Company</string>
+
+    <!--    Filter    -->
+    <string name="select_all">Select All</string>
+    <string name="chips_discovered">chips discovered</string>
+    <string name="filter_by_category">Filter by category</string>
+
+    <!--    Search      -->
+    <string name="clear">Clear</string>
+    <string name="cancel">Cancel</string>
+    <string name="recent_searches">Recent Searches</string>
+    <string name="try_searching_for">Try searching for</string>
+    <string name="popular_searches">Popular Searches</string>
+
+    <!--    Exams      -->
+    <string name="based_on_your_preferences">Based on your Preferences</string>
+    <string name="registered">Registered</string>
+    <string name="days_left">days left</string>
+    <string name="register">Register</string>
+
+    <!--    Exams Description      -->
+    <string name="region">Region:</string>
+    <string name="duration">Duration:</string>
+    <string name="team_size">Team Size:</string>
+    <string name="register_now">Register Now</string>
+    <string name="registration_fee">Registration Fee:</string>
+    <string name="important_details">Important Details:</string>
+    <string name="rewards_and_prizes">Rewards &amp; Prizes:</string>
+    <string name="registration_deadline">Registration Deadline:</string>
+
+    <!--    Account      -->
+    <string name="saved">Saved</string>
+    <string name="content">CONTENT</string>
+    <string name="language">Language</string>
+    <string name="category">Category</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="favourites">Favourites</string>
+    <string name="preferences">PREFERENCES</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="push_notifications">Push Notifications</string>
+
+    <!--    Edit Profile      -->
+    <string name="my_profile">My Profile</string>
+    <string name="save_changes">Save Changes</string>
+
+    <!--    Favourites and Saved      -->
+    <string name="select">Select</string>
+    <string name="saved_items">Saved Items</string>
+    <string name="favourite_items">Favourite Items</string>
+
+    <!--    Category and Language      -->
+    <string name="choose_your_language">Choose\nyour language</string>
+    <string name="choose_your_category">Choose\nyour category</string>
+
+    <!--    Discuss      -->
+    <string name="coming_soon">COMING SOON!</string>
+
 </resources>
